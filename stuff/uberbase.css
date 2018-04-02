@@ -1,0 +1,50 @@
+/* 
+    Created on : 11 févr. 2018, 14:06:45
+    Author     : Géraud
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	display: grid;
+	grid-auto-rows: minmax(200px, auto);
+	grid-auto-columns: 1fr;
+}
+
+.blbl {
+	display: flex;
+}
+
+.siwidule {
+	width: 100%;
+}
+
+.whole {
+	width: 100%;
+}
+
+.sipicture {
+	width: inherit;
+	height: 100%;
+	overflow: hidden;
+}
+
+.stretch {
+	width: 100%;
+	height: inherit;
+}
+
+.dcenter {
+	text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.good-content {
+	background-color: #f1f1f1;
+	padding: 20px;
+}
